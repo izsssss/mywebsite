@@ -1,0 +1,89 @@
+#header .slipAnimate{
+    -webkit-animation:slip 3s ease-out forwards infinite;
+    -moz-animation:slip 3s ease-out forwards infinite;
+    animation:slip 3s ease-out forwards infinite;
+}
+@-webkit-keyframes slip{
+    0%{-webkit-transform:translate(0);opacity:0;}
+    50%{-webkit-transform:translate(30px);opacity:0.9;color: #f4537d;-webkit-transform:rotateY(-45deg);}
+    /*70%{-webkit-transform:translate(-30px);opacity:0;}*/
+    100%{-webkit-transform:translate(-30px);opacity:1;-webkit-transform:rotateY(45deg);}
+}
+.fadeInUp-animated{
+	-webkit-animation:fadeInUp 1s ease-out forwards reverse;
+    -moz-animation:fadeInUp 1s ease-out forwards reverse;
+    animation:fadeInUp 1s ease-out forwards reverse;
+   
+}
+@-webkit-keyframes fadeInUp{
+	from{
+		opacity: 1;
+		-webkit-transform:translatey(0);
+	}
+	to{
+		opacity: 0;
+		-webkit-transform:translatey(30px);
+	}
+}
+
+.fadeLeft-animate{
+	-webkit-animation:fadeLeft 2s ease-out forwards ;
+    -moz-animation:fadeLeft 2s ease-out forwards ;
+    animation:fadeLeft 2s ease-out forwards;
+}
+@-webkit-keyframes fadeLeft{
+	from{
+		opacity: 0;
+		-webkit-transform:translatex(-150px);
+	}
+	to{
+		opacity: 1;
+		-webkit-transform:translatex(0);
+	}
+}
+
+.fadeTop-animate{
+	-webkit-animation:fadeTop 1s ease-in forwards;
+	-moz-animation:fadeTop 1s ease-in forwards;
+	animation:fadeTop 1s ease-in forwards;
+}
+@-webkit-keyframes fadeTop{
+	from{
+		opacity: 0;
+		-webkit-transform:translatey(-80px); 
+	}
+	to{
+		opacity: 1;
+		-webkit-transform:translatey(0px); 
+	}
+}
+.fadeRight-animate{
+	-webkit-animation:fadeRight 2s ease-out forwards ;
+    -moz-animation:fadeRight 2s ease-out forwards ;
+    animation:fadeRight 2s ease-out forwards;
+}
+@-webkit-keyframes fadeRight{
+	from{
+		opacity: 0;
+		-webkit-transform:translatex(150px);
+	}
+	to{
+		opacity: 1;
+		-webkit-transform:translatex(0);
+	}
+}
+.fadeBottom-animate{
+	-webkit-animation:fadeBottom 1s ease-in forwards;
+	-moz-animation:fadeBottom 1s ease-in forwards;
+	animation:fadeBottom 1s ease-in forwards;
+}
+@-webkit-keyframes fadeBottom{
+	from{
+		opacity: 0;
+		-webkit-transform:translatey(10px); 
+	}
+	to{
+		opacity: 1;
+		-webkit-transform:translatey(0px); 
+	}
+}

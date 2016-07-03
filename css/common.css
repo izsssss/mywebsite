@@ -1,0 +1,273 @@
+*{
+	margin:0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+
+}
+img{
+	border: 0;
+}
+/*******************header************************************/
+#container{
+	position: relative;
+}
+#header{
+	background: url(../img/flower.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 600px;
+	-webkit-perspective: 800px;
+    		perspective: 800px;
+    		-webkit-perspective-origin: center 65%;
+    		perspective-origin: center 65%;
+}
+#zs-pic{
+	height: 330px;
+	width: 330px;
+	position: absolute;
+	top: 140px;
+	left: 50%;
+	margin-left: -160.5px;
+	background: url(../img/zs11.png) no-repeat;
+}
+#rotateCube{
+			width: 200px;
+			/*height: 200px;*/
+			position: relative;
+			margin: 0 auto;
+			-webkit-transform-style:preserve-3d;
+			-webkit-animation:rotateCube 3s linear infinite;
+		}
+		.cube{
+			width: 160px;
+			height: 160px;
+			margin-top: 160px;
+			background: #fff;
+			opacity: 0.6;
+			position: absolute;
+			left: 0;
+			top: 0;
+			font-size: 45px;
+			border-radius: 5px;
+			border: 1px solid #fff;
+		}
+		.one{
+			-webkit-transform:rotateX(90deg) translateZ(80px);
+			background: url(../img/4.png) no-repeat;
+
+		}
+		.four{
+			-webkit-transform:rotateY(180deg) translateZ(80px);
+			background: url(../img/2.png) no-repeat;
+			
+		}
+		.three{
+			-webkit-transform:rotateY(90deg) translateZ(80px);
+			background: url(../img/5.png) no-repeat;
+		}
+		.five{
+			-webkit-transform:rotateY(-90deg) translateZ(80px);
+			background: url(../img/6.png) no-repeat;
+		}
+		.six{
+			-webkit-transform:rotateX(-90deg) translateZ(80px);
+			background: url(../img/3.png) no-repeat;
+		}
+		.two{
+			-webkit-transform:translateZ(80px);
+			background: url(../img/1.png) no-repeat;
+		}
+		@-webkit-keyframes rotateCube{
+			0%{
+
+			}
+			100%{
+				-webkit-transform:rotateY(-360deg);
+			}
+		}
+#slogan{
+	position: absolute;
+	top: 425px;
+	left: 38%;
+	font-size: 45px;
+	color: #b9e2ba;
+	font-family: 'Segoe Script';
+	font-style: oblique;
+	/*opacity: 0.8;/*透明度*/
+	/*filter:alpha(opacity=80);/*兼容ie8的透明度*/
+	
+}
+
+#nav .nav-icon{
+	width: 50px;
+	height: 50px;
+	background: url(../img/nav-icon.png) no-repeat;
+	position: absolute;
+	top: 64px;
+	right: 86px;
+	cursor: pointer;
+}
+#nav{
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+
+#nav-menu-box{
+	height: 92px;
+	width: 100%;
+	position: absolute;
+	top: -92px;
+	left: 0;
+}
+#nav .nav-menu-bg{
+	height: 100%;
+	background: rgb(82,87,89);
+	opacity: 0.39;/*透明度*/
+	filter:alpha(opacity=39);/*兼容ie8的透明度*/
+
+}
+#nav .nav-menu{
+	width: 694px; 
+	height: 32px;
+	position: absolute;
+	left: 50%;
+	margin-left: -347px;/*让ul水平居中的方法：宽度50%，，在拉回宽度的负一半*/
+	top: 50%;
+	margin-top: -16px;
+}
+#nav .nav-menu li{
+	float: left;
+	margin-right: 5px
+}
+#nav .nav-menu li a{
+	display: block;/*行级元素没办法设置上外边距，所以只能变成块级元素*/
+	margin: 8px 24px;
+	color: #fff;
+}
+#nav .nav-close-icon{
+	width: 35px;
+	height: 35px;
+	background: url(../img/close2.png) no-repeat;
+	position: absolute;
+	right: 136px;
+	top: 50%;
+	margin-top: -18px;
+	cursor: pointer;/*鼠标滑过变手状*/
+
+}
+
+#nav1{
+	width: 550px;
+	display: none;
+}
+#nav1 li,#nav1 li a{
+	display: inline-block;
+	margin-bottom: 10px;
+	height: 30px;
+	padding:7px 15px;
+	text-decoration: none;
+	color: #000;
+	line-height: 30px;
+}
+#nav1 li a{
+	width: 80px;
+	background: #f26e93;
+	opacity: 0.6;
+	filter:alpha(opacity=60);
+}
+#nav1 li a:hover{
+	background: #eee;
+}
+.toggle-btn{
+	position: absolute;
+	top: 25px;
+	left: 30px;
+	display: none;
+	width: 50px;
+	height: 50px;
+}
+.toggle-btn img{
+	height: 50px;
+	width: 50px;
+}
+
+/**********************footer***************************/
+#footer{
+	height: 180px;
+	background: #fff0cf; 
+	position: relative;
+	padding-top: 50px;
+}
+.footer1{
+	/*width: 1140px;*/
+	/*height: 200px;*/
+	/*padding-left: 80px;
+	padding-right: 80px;*/
+	margin: 0 auto;
+}
+#footer h1{
+	text-align: center;
+}
+#footer p{
+	padding-top: 80px;
+}
+#footer .contact{
+	height: 50px;
+	width: 120px;
+	background: #5dbcd2;
+	border-radius: 9px;
+	cursor: pointer;
+	position: absolute;
+	right: 200px;
+	top: 120px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+    
+}
+.footer-icon{
+	display: inline-block;
+	float: right;
+	width: 22px;
+	height: 22px;
+	background: url(../img/social-icons.png) no-repeat;
+	cursor: pointer;
+	margin-right: 10px;
+}
+.footer-icon1{
+	position: relative;
+	background-position: 0px 0px;
+}
+.footer-icon2{
+	position: relative;
+	background-position: -21px 0px;
+}
+.footer-icon3{
+	position: relative;
+	background-position: -50px 0px;
+}
+.footer-icon4{
+	position: relative;
+	background-position: -80px 0px;
+}
+
+/**********totop********************/
+#toTop .up{
+	height: 40px;
+	width: 40px;
+	position:fixed;
+    bottom:20px;
+    /*left:20px;*/
+	background: url(../img/to-top1.png) no-repeat;
+	cursor: pointer;
+	display: none;
+}

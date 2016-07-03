@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人网站</title>
+	<meta name="keywords" content="个人网站，个人博客">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" href="css/screen.css" media="screen">
+	<link rel="stylesheet" href="css/animate.css">
+	<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.shuffle-images.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".food-grid,.food-grid2-div").shuffleImages({
+				target: " > img"
+			});
+		});
+	</script>
+	<!-- <link rel="stylesheet" href="css/jquery.lightbox.css"> -->
+</head>
+<body id="top">
+	<div id="container">
+		<div id="header">
+			<span id="slogan" class="slipAnimate">
+				Just to do IT!
+			</span>
+			<div id="nav">
+				<span class="nav-icon"></span>
+				<div id="nav-menu-box">
+					<div class="nav-menu-bg"></div>
+					<ul class="nav-menu">
+						<li><a href="#header">HOME</a></li>
+						<li><a href="#aboutMe">ABOUTME</a></li>
+						<li><a href="#scenery" class="menu-Protfolio">PORTFOLIO</a></li>
+						<li><a href="#tips">BLOG</a></li>
+						<li><a href="#food-div">FOOD</a></li>
+						<li><a href="#footer">CONTACT</a></li>
+					</ul>
+					<span class="nav-close-icon"></span>
+			 	</div>
+		 	</div>
+
+		 	<a href="#nav1" class="open toggle-btn"><img src="img/nav-icon.png" alt=""></a>	
+			<div id="nav1">
+				<ul>
+					<li><a href="#header" class="selected">HOME</a></li>
+					<li><a href="#aboutMe">ABOUTME</a></li>
+					<li><a href="#scenery">PORTFOLIO</a></li>
+					<li><a href="#tips">BLOG</a></li>
+					<li><a href="#food-div">FOOD</a></li>
+					<li><a href="#footer">CONTACT</a></li>
+				</ul>
+				<a href="#top" class="close toggle-btn"><img src="img/close2.png" alt=""></a>
+			</div>
+			<div id="rotateCube">
+				<div class="cube one"></div>
+				<div class="cube two"></div>
+				<div class="cube three"></div>
+				<div class="cube four"></div>
+				<div class="cube five"></div>
+				<div class="cube six"></div>
+			</div>
+		</div>
+	
+		<div id="content">
+			<div id="aboutMe">
+				<h1 id="title0">About Me</h1>
+				<div id="zs">
+					<img src="img/zs.jpg" alt="" class="zs-pic">
+				</div>
+				<div id="introduce">
+					<div id="introduce1">
+						<h3>To introduce myself</h3>
+					        <time class="time-1" datetime="2014-01-01">13.06 <br> 2016</time><p>嗨，我是一个还在努力学习如何成为一个程序员的小女森，这里是我的个人网站，当然也可以说是我的旅行回忆录，和你们分享我旅途的风景，我的旅游攻略，我吃过的「也许是照骗」的食物。旅行对我来说不是看过多少风景，而是一起旅行的人和旅途中一起经历的事情。对我来说，每一次的旅行都是充电，让我更积极的充满能量的去做更好的自己。 </p>
+					        <p>世界这么大，我想出去看看。你是和我一样成天坐着打码的人吗？也许你过得比我更辛苦，不要因为忙碌而冲淡了对生活的热情，哪怕只是抽点时间见见朋友？最后希望可以用我的双手敲出我的世界！！</p> <br>
+				        </div>
+				</div>
+			</div>
+			<div class="border"></div>
+			<div id="scenery">
+				<span id="title1">
+					<h1>Protfolio</h1>
+				</span>
+				<div id="shanghai" class="selected">
+					<span class="protfolio-grid">
+						<a href="" title="上海外滩" data-src="img/big1.jpg" data-width='3264' data-height='2448' class="big-img">
+							<img src="img/sh-jd1.jpg" class="protfolio-img" alt="上海外滩" title="上海外滩">
+							<span class="mask">
+								<img src="img/hover-icon.png" class="mask-img">
+								<h3 class="mask-h3">product design</h3>
+								<p class="mask-p">limelight</p>
+							</span>
+						</a>
+					</span>
+					<span class="protfolio-grid">
+						<a href="img/sh-jd1.jpg" title="上海中山路" data-src="img/big2.jpg" data-width='2448' data-height='3264' class="big-img">
+							<img src="img/sh-jd2.jpg" alt="上海中山路" class="protfolio-img">
+							<span class="mask">
+								<img src="img/hover-icon.png" class="mask-img">
+								<h3 class="mask-h3">product design</h3>
+								<p class="mask-p">limelight</p>
+							</span>
+						</a>
+					</span>
+					<span class="protfolio-grid">
+						<a href="img/sh-jd1.jpg" title="田子坊随手拍" data-src="img/big3.jpg" data-width='640' data-height='852'>
+							<img src="img/sh-jd3.jpg" alt="田子坊随手拍" class="protfolio-img">
+							<span class="mask">
+								<img src="img/hover-icon.png" class="mask-img">
+								<h3 class="mask-h3">product design</h3>
+								<p class="mask-p">limelight</p>
+							</span>
+						</a>
+					</span>
+					<span class="protfolio-grid">
+						<a href="img/sh-jd1.jpg" title="田子坊随手拍" data-src="img/big4.jpg" data-width='852' data-height='640'>
+							<img src="img/sh-jd4.jpg" alt="田子坊随手拍" class="protfolio-img">
+							<span class="mask">
+								<img src="img/hover-icon.png" class="mask-img">
+								<h3 class="mask-h3">product design</h3>
+								<p class="mask-p">limelight</p>
+							</span>
+						</a>
+					</span>
+					<span class="protfolio-grid">
+						<a href="img/sh-jd1.jpg" title="田子坊随手拍" data-src="img/big5.jpg" data-width='852' data-height='640'>
+							<img src="img/sh-jd5.jpg" alt="田子坊随手拍" class="protfolio-img">
+							<span class="mask">
+								<img src="img/hover-icon.png" class="mask-img">
+								<h3 class="mask-h3">product design</h3>
+								<p class="mask-p">limelight</p>
+							</span>
+						</a>
+					</span>
+					<span class="protfolio-grid">
+						<a href="img/sh-jd1.jpg" title="田子坊随手拍" data-src="img/big6.jpg" data-width='2448' data-height='3264'>
+							<img src="img/sh-jd6.jpg" alt="田子坊随手拍" class="protfolio-img">
+							<span class="mask">
+								<img src="img/hover-icon.png" class="mask-img">
+								<h3 class="mask-h3">product design</h3>
+								<p class="mask-p">limelight</p>
+							</span>
+						</a>
+					</span>
+					<span class="protfolio-grid">
+						<a href="img/sh-jd1.jpg" title="国庆人山人海的上海" data-src="img/big7.jpg" data-width='2448' data-height='3264'>
+							<img src="img/sh-jd7.jpg" alt="国庆人山人海的上海" class="protfolio-img">
+							<span class="mask">
+								<img src="img/hover-icon.png" class="mask-img">
+								<h3 class="mask-h3">product design</h3>
+								<p class="mask-p">limelight</p>
+							</span>
+						</a>
+					</span>
+					<span class="protfolio-grid">
+						<a href="img/sh-jd1.jpg" title="老凤祥银楼" data-src="img/big8.jpg" data-width='2448' data-height='3264'>
+							<img src="img/sh-jd8.jpg" alt="老凤祥银楼" class="protfolio-img">
+							<span class="mask">
+								<img src="img/hover-icon.png" class="mask-img">
+								<h3 class="mask-h3">product design</h3>
+								<p class="mask-p">limelight</p>
+							</span>
+						</a>
+					</span>
+					<span class="protfolio-grid">
+						<a href="img/sh-jd1.jpg" title="田子坊随手拍" data-src="img/big9.jpg" data-width='2448' data-height='3264'>
+							<img src="img/sh-jd9.jpg" alt="" class="protfolio-img">
+							<span class="mask">
+								<img src="img/hover-icon.png" class="mask-img">
+								<h3 class="mask-h3">product design</h3>
+								<p class="mask-p">limelight</p>
+							</span>
+						</a>
+					</span>
+					<span class="protfolio-grid">
+						<a href="img/sh-jd1.jpg" title="田子坊随手拍" data-src="img/big10.jpg" data-width='2448' data-height='3264'>
+							<img src="img/sh-jd10.jpg" alt="" class="protfolio-img">
+							<span class="mask">
+								<img src="img/hover-icon.png" class="mask-img">
+								<h3 class="mask-h3">product design</h3>
+								<p class="mask-p">limelight</p>
+							</span>
+						</a>
+					</span>
+				</div>
+				<div id="nanjing" >
+					<span class="protfolio-grid">
+						<img src="img/nj-jd1.jpg" alt="" class="nj-img img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/nj-jd2.jpg" alt="" class="nj-img img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/nj-jd3.jpg" alt="" class="nj-img img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/nj-jd4.jpg" alt="" class="nj-img img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/nj-jd5.jpg" alt="" class="nj-img img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/nj-jd6.jpg" alt="" class="nj-img img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/nj-jd7.jpg" alt="" class="nj-img img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/nj-jd8.jpg" alt="" class="nj-img img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/nj-jd9.jpg" alt="" class="nj-img img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/nj-jd10.jpg" alt="" class="nj-img img-style">
+					</span>
+				</div>
+				<div id="xitang">
+					<span class="protfolio-grid">
+						<img src="img/xt-jd1.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/xt-jd2.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/xt-jd3.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/xt-jd4.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/xt-jd5.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/xt-jd6.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/xt-jd7.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/xt-jd8.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/xt-jd9.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/xt-jd10.jpg" alt="" class="img-style">
+					</span>
+				</div>
+				<!-- <div id="dalian">
+					<span class="protfolio-grid">
+						<img src="img/dl-jd1.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/dl-jd2.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/dl-jd3.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/dl-jd4.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/dl-jd5.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/dl-jd6.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/dl-jd7.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/dl-jd8.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/dl-jd9.jpg" alt="" class="img-style">
+					</span>
+					<span class="protfolio-grid">
+						<img src="img/dl-jd10.jpg" alt="" class="img-style">
+					</span>
+				</div> -->
+				<span id="sc-btn">
+					<div id="sc-nav">
+						<ul id="sc-ul">
+							<li class="selected1">上海</li>
+							<li>南京</li>
+							<li>西塘</li>
+							<!-- <li>大连</li> -->
+						</ul>
+					</div>
+				</span>
+				
+
+			</div>
+			<div class="border"></div>
+			<div id="tips">
+				<span id="title2" >
+					<h1>My Blog</h1>
+				</span>
+				<div id="imgs">
+					<ul id="tab">
+						<li class="selected" >1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+					</ul>
+					
+						<img class="selected" src="img/sh.jpg" alt="">
+						<img src="img/nj.jpg" alt="">
+						<img src="img/xt.jpg" alt="">
+						<img src="img/dl.jpg" alt="">
+					
+					<div id="arrow">
+						<span id="prev">&lt;</span>
+						<span id="next">&gt;</span>
+					</div>
+				
+				</div>
+				<div id="myblog">
+					<div id="myblog1">
+				        <h3 class="head__1">From the Blog</h3>
+				        <time class="time-1" datetime="2014-01-01">13.06 <br> 2016</time><p class="offset__2">嗨，我是一个还在努力学习如何成为一个程序员的小女森，这里是我的个人网站，当然也可以说是我的旅行回忆录，和你们分享我旅途的风景，我的旅游攻略，我吃过的「也许是照骗」的食物。旅行对我来说不是看过多少风景，而是一起旅行的人和旅途中一起经历的事情。对我来说，每一次的旅行都是充电，让我更积极的充满能量的去做更好的自己。 </p>
+				        <p>世界这么大，我想出去看看。你是和我一样成天坐着打码的人吗？也许你过得比我更辛苦，不要因为忙碌而冲淡了对生活的热情，哪怕只是抽点时间见见朋友？最后希望可以用我的双手敲出我的世界！！</p> <br>
+				        <a href="#" class="btn">more</a>
+			        </div>
+	      		</div>
+				
+			</div>
+			<div class="border"></div>
+			<div id="food-div">
+				<div id="food">
+					<div id="title3">
+						<h1>我的美食印迹</h1>
+					</div>
+					<div class="food-grid1 food-grid">
+						<div class="images1">
+							<img src="img/7.jpg" alt="" class="selected">
+							<img src="img/8.jpg" alt="">
+							<img src="img/9.jpg" alt="">
+						</div>
+					</div>
+					<div class="food-grid2 food-grid21">
+						<div class="food-grid2-div1 food-grid2-div">
+							<img src="img/4.jpg" alt="" class="selected">
+							<img src="img/5.jpg" alt="">
+							<img src="img/6.jpg" alt="">
+						</div>
+						<div class="food-grid2-div2 food-grid2-div">
+							<img src="img/11.jpg" alt="" class="selected">
+							<img src="img/10.jpg" alt="">
+							<img src="img/12.jpg" alt="">
+						</div>
+					</div>
+					<div class="food-grid2 food-grid22">
+						<div class="food-grid2-div1 food-grid2-div">
+							<img src="img/15.jpg" alt="" class="selected">
+							<img src="img/14.jpg" alt="">
+							<img src="img/13.jpg" alt="">
+						</div>
+						<div class="food-grid2-div2 food-grid2-div">
+							<img src="img/17.jpg" alt="" class="selected">
+							<img src="img/16.jpg" alt="">
+							<img src="img/18.jpg" alt="">
+						</div>
+					</div>
+					<div class="food-grid11 food-grid">
+						<div class="images2">
+							<img src="img/1.jpg" alt="" class="selected">
+							<img src="img/2.jpg" alt="">
+							<img src="img/3.jpg" alt="">
+						</div>
+					</div>
+				
+				</div>
+			</div>
+		</div>
+
+		<div id="footer">
+			<div class="footer1">
+				<h1 class="footer-h1">WANT TO DISCUSS ANY CREATIVE PROJCT?</h1>
+				<a href="#" class="contact">CONTACT ME</a>
+				<p>Thank you for coming!</p>
+				<span class="footer-icon footer-icon4">
+					<a href="#"></a>
+				</span>
+				<span class="footer-icon footer-icon3">
+					<a href="#"></a>
+				</span>
+				<span class="footer-icon footer-icon2">
+					<a href="#"></a>
+				</span>
+				<span class="footer-icon footer-icon1">
+					<a href="#"></a>
+				</span>
+			</div>
+		</div>
+		<div id="toTop">
+			<a href="#" class="up">
+			</a>
+		</div>
+
+
+
+
+
+
+
+	</div>
+	
+
+	
+	<script type="text/javascript" src="js/mylib.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	
+	
+</body>
+</html>

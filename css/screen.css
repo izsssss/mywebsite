@@ -1,0 +1,485 @@
+
+@media (min-width: 980px) and (max-width: 1199px){
+	#nav .nav-icon{
+		top: 34px;
+		right: 0;
+		left: 20px;
+	}
+	#shanghai,#nanjing,#xitang,#dalian{
+		width: 980px;
+	}
+	#sc-ul{
+		right: 22px;
+	}
+	.border{
+		width: 767px;
+		left: 1px;
+		right: 1px;
+	}
+	#imgs{
+		margin: auto;
+		left: 0;
+	}
+	#aboutMe{
+		height: 800px;
+	}
+	#zs{
+		margin: auto;
+		width: 520px;
+		left: 0;
+		position: static;
+	}
+	#introduce{
+		width: 580px;
+		margin: auto;
+		position: static;
+	}
+	#introduce1{
+		width: 500px;
+		padding-top: 20px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	#introduce1 p{
+		font-size: 18px;
+	}
+	#myblog{
+		width: 940px;
+		top: 500px; 
+		margin: auto;
+		
+	}
+	#myblog p{
+		font-size: 18px;
+	}
+	#tips{
+		height: 870px;
+	}
+	#title3{
+		margin: auto;
+	}
+	#food-div{
+		height: 2012px;
+	}
+	#food .food-grid{
+		margin-left: 150px;
+	}
+	#food .food-grid2{
+		margin-left: 150px;
+	}
+	.food-grid2-div1{
+		margin-right: 0;
+	}
+	.food-grid21{
+		margin-left: 0;
+		height: 480px;
+	}
+	.food-grid22{
+		height: 576px;
+	}
+	#footer .footer1{
+		/*width: 767px;*/
+		margin: 0;
+		clear: both;
+	}
+	#footer .contact{
+		right: 50px;
+		top: 130px;
+		width: 120px;
+	}
+	#footer p{
+		padding-top: 80px;
+		font-size: 25px;
+	}
+}
+@media (min-width: 768px) and (max-width: 979px){
+	#nav .nav-icon{
+		top: 25px;
+		right: 0;
+		left: 30px;
+	}
+	#nav .nav-close-icon{
+		right: 20px;
+	}
+	#aboutMe{
+		height: 800px;
+	}
+	#zs{
+		margin: auto;
+		width: 520px;
+		left: 0;
+		position: static;
+	}
+	#introduce{
+		width: 580px;
+		margin: auto;
+		position: static;
+	}
+	#introduce1{
+		width: 500px;
+		padding-top: 20px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	#introduce1 p{
+		font-size: 18px;
+	}
+	#shanghai,#nanjing,#xitang,#dalian{
+		width: 767px;
+	}
+	#sc-ul{
+		right: 22px;
+	}
+	.border{
+		width: 767px;
+		left: 1px;
+		right: 1px;
+	}
+	#imgs{
+		margin: auto;
+	}
+	#myblog{
+		width: 720px;
+		top: 500px; 
+		margin: auto;
+	}
+	#myblog p{
+		font-size: 18px;
+	}
+	#tips{
+		height: 850px;
+	}
+	#title3{
+		margin: auto;
+	}
+	#food-div{
+		height: 2012px;
+	}
+	.food-grid2-div1{
+		margin-right: 0;
+	}
+	.food-grid21{
+		margin-left: 0;
+		height: 480px;
+	}
+	.food-grid22{
+		height: 576px;
+	}
+	#footer .footer1{
+		/*width: 767px;*/
+		margin: 0;
+		clear: both;
+	}
+	#footer .contact{
+		right: 50px;
+		top: 130px;
+		width: 120px;
+	}
+	#footer p{
+		padding-top: 80px;
+		font-size: 25px;
+	}
+}
+@media (max-width: 767px){
+	#nav{
+		display: none;
+	}
+	.toggle-btn{
+		display: inline-block;
+	}
+	#nav1 .close{
+		display: none;
+	}
+	#nav1:target .close{
+		display: inline-block;
+	}
+	#nav1{
+		display: none;
+	}
+	#nav1:target{
+		display: block;
+		position: absolute;
+		top: 0;
+		padding-top: 70px;
+		width: 100%;
+	}
+	
+	#nav1:target li,#nav1:target li a{
+		display: block;
+		color: #fff;
+		text-align: left;
+	}
+	#nav1:target li a:hover{
+		background: #3b3b3b;
+	}
+	#aboutMe{
+		height: 800px;
+	}
+	#zs{
+		margin: auto;
+		width: 320px;
+		left: 0;
+		position: static;
+	}
+	#introduce{
+		width: 400px;
+		margin: auto;
+		position: static;
+	}
+	#introduce1{
+		width: 400px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	#shanghai,#nanjing,#xitang,#dalian{
+		width: 420px;
+	}
+	.protfolio-grid{
+		margin-right: 0;
+	}
+	#sc-ul{
+		width: 250px;
+		top: 10px;
+		right: 0;
+		left: -200px;
+	}
+	#sc-ul li{
+		float: left;
+		margin-right: 5px;
+	}
+	#sc-btn{
+		background: url(../img/nav-icon.png) no-repeat;
+		top: 40px;
+	}
+	.border{
+		width: 420px;
+		left: 1px;
+		right: 1px;
+	}
+	#tips{
+		height: 760px;
+	}
+	#tab{
+		right: 8px;
+	}
+	#imgs img{
+		width: 370px;
+	}
+	#imgs{
+		left: 0px;
+		width: 370px;
+		height: 220px;
+		margin: auto;
+	}
+	#myblog{
+		width: 390px;
+		top: 340px; 
+		margin: auto;
+		left: -5px;
+	}
+	#myblog p{
+		font-size: 18px;
+	}
+	#title3{
+		width: 420px;
+	}
+	#food{
+		width: 420px;
+	}
+	#food-div{
+		height: 1342px;
+	}
+	#food .food-grid{
+		width: 420px;
+		height: 315px;
+	}
+	#food .food-grid2{
+		width: 420px;
+		height: 315px;
+	}
+	.images1 img,.images2 img{
+		width: 420px;
+	}
+	.food-grid2-div img{
+		width: 200px;
+	}
+	.food-grid2-div1{
+		margin-right: 0;
+	}
+	.food-grid21{
+		margin-left: 0;
+		height: 267px;
+	}
+	.food-grid22{
+		height: 338px;
+	}
+	#footer .footer1{
+		margin: 0;
+	}
+	#footer .contact{
+		right: 50px;
+		top: 130px;
+		width: 120px;
+	}
+	#footer p{
+		padding-top: 80px;
+		font-size: 19px;
+	}
+
+}
+@media (max-width: 479px){
+	#content{
+		height: 100%;
+	}
+	#slogan{
+		font-size: 30px;
+		left: 35%;
+	}
+	#nav{
+		display: none;
+	}
+	#nav{
+		display: none;
+	}
+	.toggle-btn{
+		display: inline-block;
+	}
+	#nav1 .close{
+		display: none;
+	}
+	#nav1:target .close{
+		display: inline-block;
+	}
+	#nav1{
+		display: none;
+	}
+	#nav1:target{
+		display: block;
+		position: absolute;
+		top: 0;
+		padding-top: 70px;
+		width: 100%;
+	}
+	
+	#nav1:target li,#nav1:target li a{
+		display: block;
+		color: #fff;
+		text-align: left;
+	}
+	#nav1:target li a:hover{
+		background: #3b3b3b;
+	}
+	#introduce{
+		width: 350px;
+		margin: auto;
+		position: static;
+	}
+	#introduce1{
+		width: 350px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	#shanghai,#nanjing,#xitang,#dalian{
+		width: 420px;
+	}
+	.protfolio-grid{
+		margin-right: 0;
+		width: 184px;
+	}
+	#sc-ul{
+		width: 250px;
+		top: 10px;
+		right: 0;
+		left: -200px;
+	}
+	#sc-ul li{
+		float: left;
+		margin-right: 5px;
+	}
+	#sc-btn{
+		background: url(../img/nav-icon.png) no-repeat;
+		top: 40px;
+		width: 50px;
+		height: 50px;
+		right: 35px;
+	}
+	.border{
+		width: 420px;
+		left: 1px;
+		right: 1px;
+	}
+	#tab{
+		right: 8px;
+	}
+	#imgs img{
+		width: 360px;
+	}
+	#imgs{
+		left: 0px;
+		width: 360px;
+		height: 220px;
+		margin: auto; 
+
+	}
+	#myblog{
+		width: 355px;
+		top: 340px; 
+		margin: auto;
+		right: 0;
+
+	}
+	#myblog p{
+		font-size: 18px;
+	}
+	#title3{
+		width: 420px;
+	}
+	#food{
+		width: 420px;
+	}
+	#food-div{
+		height: 1342px;
+	}
+	#food .food-grid{
+		width: 420px;
+		height: 315px;
+	}
+
+	#food .food-grid11{
+		margin-left: 0;
+	}
+	#food .food-grid2{
+		width: 420px;
+		height: 315px;
+	}
+	.images1 img,.images2 img{
+		width: 370px;
+	}
+	.food-grid2-div img{
+		width: 185px;
+	}
+	#food .food-grid2-div1{
+		margin-right: 6px;
+	}
+	.food-grid21{
+		margin-left: 0;
+		height: 267px;
+	}
+	.food-grid22{
+		height: 338px;
+	}
+	#footer .footer1{
+		/*width: 360px;*/
+		margin: 0;
+	}
+	#footer .contact{
+		right: 50px;
+		top: 130px;
+		width: 120px;
+	}
+	#footer p{
+		padding-top: 60px;
+		font-size: 19px;
+	}
+}
+

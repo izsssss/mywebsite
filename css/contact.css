@@ -1,0 +1,63 @@
+#content{
+	height: 600px;
+	/*width: 100%;*/
+	background: #f8d5f9;
+}
+.user-inf{
+	padding-top: 70px;
+	width: 730px;
+	height: 478px;
+	position: absolute;
+}
+.wrap{
+	margin:0 auto;
+	width: 1140px;
+}
+.lable{
+	width: 730px;
+	height: 25px;
+	/*display: block;*/
+	float: left;
+	color: #000;
+}
+.input{
+	width: 672px;
+	height: 25px;
+	padding: 10px;
+	/*display: block;*/
+	float: left;
+	color: #9198A3;
+	background: #fff;
+	border: 1px solid #eee;
+}
+.input-message{
+	height: 150px;
+}
+.my-inf{
+	padding-top: 70px;
+	float: right;
+	height: 274px;
+	width: 350px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.my-inf h2{
+	padding-top: 10px;
+	color: #000;
+}
+.my-inf p{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color:  #9198A3;
+}
+.input-sub{
+	height: 50px;
+	width: 100px;
+	margin-top: 10px;
+	background: #02D7FD;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+}
